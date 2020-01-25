@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+          - Express is a node.js module, and can be used to build RESTful web services that work with JSON. Express' main features are middleware and routing.
+
 - [ ] Describe Middleware?
+
+          - Middleware are functions that can alter request or response objects. 
 
 - [ ] Describe a Resource?
 
+          - when designing a RESTful API, anything can be a resource. Resources are managed by HTTP methods. 
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+          - The API can return a status code, such as 200 for a successful GET request, or a 201 for a successful PUT / POST request.
+
 - [ ] How can we partition our application into sub-applications?
+
+          - You can use Express Routers to partition the application into sub-applications.
 
 ## Minimum Viable Product
 
