@@ -17,7 +17,7 @@ const server = require('./server');
 
 // If hosting on Heroku, this would change to "0.0.0.0";
 const host = process.env.HOST || "127.0.0.1";
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 7000;
 
 server.listen(port, host, () => {
   console.log(`Server is Running on http://${host}:${port}`);
